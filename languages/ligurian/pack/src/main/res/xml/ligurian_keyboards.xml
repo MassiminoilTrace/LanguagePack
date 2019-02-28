@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboards>
+    <!-- Dictionary attributes:
+     "nameResId" : the name of the keyboard. Should be short. Reference to a string in values.xml 
+     "defaultDictionaryLocale" : the ID of the keyboard's (ISO) locale, e.g., "en", "iw", "ar", "ru", etc. The dictionary should declare the same locale. 
+     "id" : UUID for this keyboard. Obtain from here: http://www.famkruithof.net/uuid/uuidgen
+     "iconResId" : a reference to a drawable which can be used to show a flag in the notification bar.
+     "layoutResId" : a reference to a keyboard layout XML. See res/xml/qwerty.xml
+     -->
+	<Keyboard nameResId="@string/ligurian_keyboard" iconResId="@drawable/ic_status_ligurian" layoutResId="@xml/ligurian_qwerty"
+			landscapeResId="@xml/ligurian_qwerty"
+			id="f743818f-714b-447b-8404-e31ee1f66298" defaultDictionaryLocale="lij" description="ligurian QWERTY" index="1" />
+</Keyboards>
