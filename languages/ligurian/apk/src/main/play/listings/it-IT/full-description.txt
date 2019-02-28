@@ -1,0 +1,3 @@
+Tastiera in lingua ligure con correttore automatico
+
+Prima di tutto installa [[com.menny.android.anysoftkeyboard]], poi scegli l'aspetto preferito dalle impostazioni di AnySoftKeyboard.

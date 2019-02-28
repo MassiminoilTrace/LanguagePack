@@ -1,0 +1,1 @@
+Pacchetto lingua ligure per AnySoftKeyboard
