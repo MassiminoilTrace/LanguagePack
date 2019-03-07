@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ligurian_dictionary">Ligurian dictionary</string>
+    <string name="ligurian_keyboard_name">Ligurian</string>
+    <string name="ligurian_keyboard_description">Simple keyboard for Ligurian</string>
+    <string name="ligurian_dictionary_author">Created by Massimo Gismondi</string>
+</resources>

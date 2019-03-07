@@ -10,6 +10,6 @@
 
 	<Dictionary nameResId="@string/ligurian_dictionary" locale="lij" id="c2fcb35c-a1ee-4377-81c9-6de31416196c" type="binary_resource"
 	dictionaryResourceId="@array/ligurian_words_dict_array" autoTextResourceId="@xml/ligurian_autotext"
-	description="Created by Massimo Gismondi" />
+	description="@string/ligurian_dictionary_author" />
 
 </Dictionaries>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ligurian_dictionary">Dizionario ligure</string>
+    <string name="ligurian_keyboard_name">Ligure</string>
+    <string name="ligurian_keyboard_description">Potente tastiera per la lingua ligure</string>
+    <string name="ligurian_dictionary_author">Creato da Massimo Gismondi</string>
+</resources>
