@@ -8,8 +8,12 @@
      "autoTextResourceId" : a reference to a common typing mistakes XML.
      -->
 
-	<Dictionary nameResId="@string/ligurian_dictionary" locale="lij" id="c2fcb35c-a1ee-4377-81c9-6de31416196c" type="binary_resource"
-	dictionaryResourceId="@array/ligurian_words_dict_array" autoTextResourceId="@xml/ligurian_autotext"
-	description="@string/ligurian_dictionary_author" />
+	<Dictionary
+		nameResId="@string/ligurian_dictionary"
+		locale="lij" id="e2f0ff40-40d4-11e9-b475-0800200c9a66"
+		type="binary_resource"
+		dictionaryResourceId="@array/ligurian_words_dict_array"
+		autoTextResourceId="@xml/ligurian_autotext"
+		description="@string/ligurian_dictionary_author" />
 
 </Dictionaries>
