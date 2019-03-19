@@ -52,5 +52,40 @@
         <Key android:codes="109" android:keyLabel="m"/>
         <Key android:keyWidth="15%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
+
+    <Row
+        android:keyboardMode="@integer/keyboard_mode_normal"
+        android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="@integer/key_code_mode_symbols"
+            android:keyEdgeFlags="left"
+            android:keyWidth="10%p" />
+        <Key
+            android:codes="@integer/key_code_mode_alphabet"
+            android:keyWidth="10%p"
+            />
+
+        <Key
+            android:codes=","
+            android:keyWidth="10%p"
+            />
+
+        <Key
+            android:codes="@integer/key_code_space"
+            android:keyWidth="50%p"
+            />
+
+        <Key
+            android:codes="."
+            android:keyWidth="10%p"
+            android:popupCharacters=";/()#&apos;"
+            />
+
+        <Key
+            android:codes="@integer/key_code_enter"
+            android:keyWidth="10%p"
+            />
+
+    </Row>
 </Keyboard>
     
