@@ -2,7 +2,26 @@
 
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:keyWidth="10%p"><!-- "android:keyWidth" specify the default width of a key. In this example, 10% of parent (the whole keyboard) -->
-    
+
+    <!--Riga superiore unica-->
+    <!--
+    <Row
+        android:rowEdgeFlags="top"
+        android:keyWidth="10%p"
+        android:keyHeight="@integer/key_short_height">
+        <Key android:codes="49" android:keyLabel="1" android:popupCharacters="!`~" android:keyEdgeFlags="left"/>
+        <Key android:codes="50" android:keyLabel="2" android:popupCharacters="&quot;\@½²"/>
+        <Key android:codes="51" android:keyLabel="3" android:popupCharacters="#⅓⅔³π"/>
+        <Key android:codes="52" android:keyLabel="4" android:popupCharacters="$¼¾"/>
+        <Key android:codes="53" android:keyLabel="5" android:popupCharacters="%"/>
+        <Key android:codes="54" android:keyLabel="6" android:popupCharacters="&amp;^"/>
+        <Key android:codes="55" android:keyLabel="7" android:popupCharacters="/"/>
+        <Key android:codes="56" android:keyLabel="8" android:popupCharacters="*⅛⅜⅞"/>
+        <Key android:codes="57" android:keyLabel="9" android:popupCharacters="([{"/>
+        <Key android:codes="48" android:keyLabel="0" android:popupCharacters=")]}-=_+°" android:keyEdgeFlags="right"/>
+    </Row>
+    -->
+
     <Row>
         <!-- Key attributes:
          "android:codes" : a comma separated unicode values of the keys. If you specify more than one code, then the other codes are accessible via multi-tap.
@@ -15,7 +34,7 @@
          -->
         <Key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/>
         <Key android:codes="119" android:keyLabel="w"/>
-        <Key android:codes="101" android:popupCharacters="èé" android:keyLabel="e"/>
+        <Key android:codes="101" android:popupCharacters="èé€" android:keyLabel="e"/>
         <Key android:codes="114" android:keyLabel="r"/>
         <Key android:codes="116" android:keyLabel="t"/>
         <Key android:codes="121" android:keyLabel="y"/>
@@ -53,6 +72,9 @@
         <Key android:keyWidth="15%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
 
+
+<!--Riga inferiore-->
+    <!--
     <Row
         android:keyboardMode="@integer/keyboard_mode_normal"
         android:rowEdgeFlags="bottom">
@@ -66,7 +88,8 @@
             />
 
         <Key
-            android:codes=","
+            android:codes="44"
+            android:keyLabel=","
             android:keyWidth="10%p"
             />
 
@@ -76,7 +99,8 @@
             />
 
         <Key
-            android:codes="."
+            android:codes="46"
+            android:keyLabel="."
             android:keyWidth="10%p"
             android:popupCharacters=";/()#&apos;"
             />
@@ -84,8 +108,12 @@
         <Key
             android:codes="@integer/key_code_enter"
             android:keyWidth="10%p"
+            android:keyEdgeFlags="right"
             />
 
     </Row>
+-->
+
+
 </Keyboard>
     

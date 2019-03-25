@@ -68,7 +68,7 @@ tasks.register("copyAnySoftKeyboardBaseLib") {
     group "AnySoftKeyboard"
     description 'Copies several of base aars from this repo into AnySoftKeyboard local repo. Use -PanysoftkeyboardPath=[path/to/AnySoftKeyboard/]'
 
-    def libsToCopy = [':api', ':base', ':languages:english:pack']
+    def libsToCopy = [':api', ':base', ':languages:english:pack','languages:italian:pack','languages:ligurian:pack']
     def targets = ['external/api/libs', 'external/packs/libs', 'external/packs/libs']
     libsToCopy.forEach {
         dependsOn rootProject.findProject(it).tasks.named('assembleRelease')
