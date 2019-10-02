@@ -26,7 +26,7 @@ include ":languages:klingon:pack", ":languages:klingon:apk"
     * Try to locate AOSP dictionary files (could be found at [AOSP](https://android.googlesource.com/platform/packages/inputmethods/LatinIME/+/master/dictionaries/), or [LineageOS](https://github.com/LineageOS/android_packages_inputmethods_LatinIME/tree/lineage-16.0/dictionaries)) (you should use the `XX_wordlist.combined.gz` file).
     * If you have anything that was pre-built into a word-list XML, put those under `klingon/pack/dictionary/prebuilt`.
     * Add text files that will be parsed - word-counted -  to generate word-list XMLs
-1. Generate the dictionary: `./gradlew :languages:kligon:pack:makeDictionary`. This will create the following files (which _should not_ checked into the repo):
+1. Generate the dictionary: `./gradlew :languages:klingon:pack:makeDictionary`. This will create the following files (which _should not_ checked into the repo):
     * raw resources under `klingon/pack/src/main/res/raw/klingon_words_?.dict`
     * IDs resource array under `klingon/pack/src/main/res/values/klingon_words_dict_array.xml`
 1. Edit `klingon_dictionaries.xml`:
@@ -37,8 +37,8 @@ include ":languages:klingon:pack", ":languages:klingon:apk"
 1. Set the status-bar icon text at `klingon/pack/build.gradle`: `ext.status_icon_text = "kl"`
 1. Replace the flag at klingon/apk/flag` with a, high-quality, png or svg, image of the flag. It should be named `flag.png` or `flag.svg`. _Note_ that sometimes svg files are not converted correctly, but they will produce highest quality if successful.
 1. To generate the icons, you'll need ImageMagick installed on your path. Check out the installation [page](https://imagemagick.org/script/download.php) for details.
-1. Generate the icons: `./gradlew :languages:kligon:pack:generateLanguagePackIcons :languages:kligon:apk:generateStoreLogoIcon`. This will generate the following files (which _should_ be checked into the repo):
-    * `klingon/pack/src/main/res/drawable-*/ic_status_kligon.png`
+1. Generate the icons: `./gradlew :languages:klingon:pack:generateLanguagePackIcons :languages:klingon:apk:generateStoreLogoIcon`. This will generate the following files (which _should_ be checked into the repo):
+    * `klingon/pack/src/main/res/drawable-*/ic_status_klingon.png`
     * `klingon/apk/src/main/res/mipmap-*/ic_launcher.png`
     * `klingon/apk/src/main/play/listings/en-US/graphics/feature-graphic/pack_store_feature_graphics.png`
     * `klingon/apk/src/main/play/listings/en-US/graphics/icon/pack_store_icon.png`
@@ -83,6 +83,7 @@ TO DO!!!
 1. <img src='languages/romanian/apk/flag/flag.png' height='16'>&nbsp;Romanian: [Source](languages/romanian) • [Play Store](https://play.google.com/store/apps/details?id=com.anysoftkeyboard.languagepack.romanian)
 1. <img src='languages/russian2/apk/flag/flag.png' height='16'>&nbsp;Russian2: [Source](languages/russian2) • [Play Store](https://play.google.com/store/apps/details?id=com.anysoftkeyboard.languagepack.russian2)
 1. <img src='languages/sardinian/apk/flag/flag.png' height='16'>&nbsp;Sardinian: [Source](languages/sardinian)
+1. <img src='languages/serbian/apk/flag/flag.png' height='16'>&nbsp;Serbian: [Source](languages/serbian)
 1. <img src='languages/spain/apk/flag/flag.png' height='16'>&nbsp;Spain: [Source](languages/spain) • [Play Store](https://play.google.com/store/apps/details?id=com.anysoftkeyboard.languagepack.spain)
 1. <img src='languages/tamazight/apk/flag/flag.png' height='16'>&nbsp;Tamazight: [Source](languages/tamazight) • [Play Store](https://play.google.com/store/apps/details?id=com.anysoftkeyboard.languagepack.tamazight)
 

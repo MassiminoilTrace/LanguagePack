@@ -21,6 +21,7 @@ include ':languages:ossturkish:pack', ':languages:ossturkish:apk'
 include ':languages:romanian:pack', ':languages:romanian:apk'
 include ':languages:russian2:pack', ':languages:russian2:apk'
 include ':languages:sardinian:pack', ':languages:sardinian:apk'
+include ':languages:serbian:pack', ':languages:serbian:apk'
 include ':languages:spain:pack', ':languages:spain:apk'
 include ':languages:tamazight:pack', ':languages:tamazight:apk'
 
@@ -30,3 +31,7 @@ include ':themes:classic_pc:pack', ':themes:classic_pc:apk'
 include ':themes:ics:pack', ':themes:ics:apk'
 include ':themes:israel64:pack', ':themes:israel64:apk'
 include ':themes:three_d:pack', ':themes:three_d:apk'
+
+//list of quick-text should be alphabetized-ordered
+include ':quicktexts'
+include ':quicktexts:bbcodes:pack', ':quicktexts:bbcodes:apk'
